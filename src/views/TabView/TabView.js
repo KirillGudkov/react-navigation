@@ -199,12 +199,12 @@ class TabView extends React.PureComponent<Props> {
       }
     }
 
-    if (
-      (animationEnabled === false && swipeEnabled === false) ||
-      typeof configureTransition === 'function'
-    ) {
-      renderPager = this._renderPager;
-    }
+//     if (
+//       (animationEnabled === false && swipeEnabled === false) ||
+//       typeof configureTransition === 'function'
+//     ) {
+//       renderPager = this._renderPager;
+//     }
 
     const props = {
       initialLayout,
